@@ -1,0 +1,7 @@
+Selection sort is correct because:
+
+Invariant: At the start of each iteration of the outer loop, the subarray that has been sorted is in the correct order. The algorithm maintains this invariant by ensuring the smallest element from the unsorted portion is placed at the end of the sorted portion in each iteration.
+
+Termination: After n-1 iterations (where n is the number of elements), the array is fully sorted. Each pass through the array places the next smallest element in the correct position.
+
+Proof: Each element is compared and moved to its correct position in a series of passes, ensuring that eventually, the entire array is sorted.
